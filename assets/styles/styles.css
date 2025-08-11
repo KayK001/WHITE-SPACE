@@ -167,7 +167,7 @@ img {
 
 /* Feature Sections */
 .feature {
-  padding: 100px 0;
+  padding: 100px;
   display: flex;
   align-items: center;
   gap: 60px;
@@ -201,7 +201,8 @@ img {
 .feature__image {
   flex: 1;
   height: 400px;
-  background-color: #f5f5f5;
+  height: auto;
+  padding: 25px;
   border-radius: var(--border-radius);
   overflow: hidden;
 }
@@ -298,6 +299,233 @@ img {
   width: 16px;
   height: 16px;
   margin-top: 3px;
+}
+.taskey{
+  width: 100%;
+  background-color: var(--primary-color);
+  padding: 50px 40px ;
+}
+.taskey h2{
+  font-weight: 500px;
+  font-style: bold;
+  font-size: 72px;
+  color: #ffffff;
+  line-height: 100%;
+  letter-spacing: -2%;
+  text-align: center;
+}
+.taskey p{
+  text-align: center;
+  font-family: inter;
+  font-weight: 200px;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -2%;
+  color: #ffffff;
+  margin-top: 30px;
+}
+.btn btn--primary{
+  margin-left: auto;
+  margin-right: auto;
+}
+.product-review{
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-box1{
+  padding: 50px 30px;
+  height: 300px;
+}
+.product-box1 h2{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.product-box1 p{
+  font-size:14px ;
+  margin-top: 7px;
+}
+.product-box2{
+  padding: 50px 10px;
+}
+.product-box2 img {
+  width: 600px;
+  height: 300px;
+}
+.sponsor-section{
+  background-color: #ffffff;
+  padding: 30px;
+}
+.sponsor-container1 h2{
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+}
+.sponsor-container2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  padding: 40px;
+}
+.app-section{
+  background-color: var(--primary-color) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.app-container1 img{
+  height: 470px ;
+  width: 580px ;
+  background-color: 2px solid red;
+  padding: 40px;
+  margin-right: 20px;
+}
+.app-container2 h2{
+  font-size: 45px;
+  font-weight: bold;
+
+}
+.app-container2 p{
+  font-size: 10px;
+}
+.app-container2{
+  width: 600px ;
+  height: 400px;
+  color: #ffffff;
+  padding: 10px;
+}
+.testimonial-section{
+  background-color: #ffffff;
+  padding: 90px;
+  
+}
+.testimonial-box1{
+  font-size: 30px;
+  text-align: center;
+}
+.testimonial-box2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.testimonial1{
+      width: 330px;
+      height: 310px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      padding: 5px;
+      margin: 20px;
+      
+}
+.testimonial2{
+   background-color: var(--secondary-color);
+    width: 330px;
+      height: 310px;
+      
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      padding: 5px;
+      margin: 20px;
+      
+}
+.testimonial3{
+  background-color: var(--secondary-color);
+   width: 330px;
+      height: 310px;
+      
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      padding: 5px;
+      margin: 20px;
+      
+}
+.card-top{
+  padding: 15px;
+
+}
+.card-top img{
+  width: 60px;
+  padding: 5px;
+}
+.card-top p{
+  font-size: 12px;
+  padding: 10px;
+}
+.card-bottom{
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.card-bottom img{
+  width: 60px;
+}
+.card-bottom h4{
+  font-size: 15px;
+}
+.card-bottom p{
+  font-size: 12px;
+}
+.testimonial-box3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.testimonial-box3 img{
+  width: 50px;
+}
+.main-page{
+  background-color: var(--primary-color);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 140px 0 32px 0;
+}
+.main-box1{
+  
+}
+.main-box1 h3{
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px;
+  color:#ffffff ;
+  text-align: center;
+  letter-spacing: -2%;
+  line-height: 100%;
+}
+.main-box1 p{
+  font-size: 15px;
+ 
+  padding: 10px;
+  color:#ffffff ;
+  text-align: center;
+}
+.main-box2{
+  
+ 
+}
+.main-box2 p{
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  
+  padding: 20px;
+}
+.main-img{
+  
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+
 }
 
 /* Responsive Styles */
@@ -408,4 +636,4 @@ img {
   .plan {
     min-width: 100%;
   }
-}
+} 
